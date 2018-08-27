@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana2/aula_3/simulation/qsim
+vflipflop
+!s110 1534442393
+!i10b 1
+!s100 zX07F=Sl6FdXToWTSI35E3
+Ij]VhXmS]>bLQ74OgSR^o81
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1534442390
+8flipflop.vo
+Fflipflop.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z3 !s108 1534442393.000000
+!s107 flipflop.vo|
+!s90 -work|work|flipflop.vo|
+!i113 1
+Z4 o-work work
+vflipflop_vlg_vec_tst
+!s110 1534442394
+!i10b 1
+!s100 V5CREaSD6SlQV92AgFXjO1
+I55IoZ?8YUHS;C<[:glK;A3
+R1
+R0
+w1534442388
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

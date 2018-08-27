@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana1/aula_2/simulation/qsim
+vmultiplex
+Z1 !s110 1534269914
+!i10b 1
+!s100 XlnYP8kz;Ijo3nQ9d^mUA1
+IQacj]I9[V[fIek?`;RBO:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1534269910
+8multiplex.vo
+Fmultiplex.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1534269913.000000
+!s107 multiplex.vo|
+!s90 -work|work|multiplex.vo|
+!i113 1
+Z4 o-work work
+vmultiplex_vlg_vec_tst
+R1
+!i10b 1
+!s100 nX[7o7Ca[7UnSbN=bjWjA2
+ILFObmJ?3GKQU1V9Y8]l`l3
+R2
+R0
+w1534269908
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1534269914.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

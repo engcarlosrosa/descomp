@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana2/aula4a_rom/simulation/qsim
+vsingle_port_rom
+Z1 !s110 1535106836
+!i10b 1
+!s100 ;O]dAX<<8Om8[M07?Q4g33
+Ijz_UihIoR[9Tm]7nI8ngg2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1535106835
+8single_port_rom.vo
+Fsingle_port_rom.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1535106836.000000
+!s107 single_port_rom.vo|
+!s90 -work|work|single_port_rom.vo|
+!i113 1
+Z5 o-work work
+vsingle_port_rom_vlg_vec_tst
+R1
+!i10b 1
+!s100 cC5V4AZ[g5`dLB?g[iihF3
+IW=3:9=B@kPQ[OXkzXODF10
+R2
+R0
+w1535106833
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R5

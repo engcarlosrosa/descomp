@@ -1,0 +1,7 @@
+|multiplex
+sel => y.OUTPUTSELECT
+a => y.DATAB
+b => y.DATAA
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
