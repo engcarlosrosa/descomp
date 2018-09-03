@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Sep 02 11:15:47 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : fsm_sequenciador
+Top-level Entity Name : fsm_sequenciador
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 3 / 6,272 ( < 1 % )
+    Total combinational functions : 3 / 6,272 ( < 1 % )
+    Dedicated logic registers : 2 / 6,272 ( < 1 % )
+Total registers : 2
+Total pins : 15 / 92 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,118 @@
+$comment
+	File created using the following command:
+		vcd file fsm_moore.msim.vcd -direction
+$end
+$date
+	Thu Aug 30 13:46:34 2018
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module fsm_moore_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " CLK $end
+$var wire 1 # Y $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * Y~output_o $end
+$var wire 1 + CLK~input_o $end
+$var wire 1 , CLK~inputclkctrl_outclk $end
+$var wire 1 - A~input_o $end
+$var wire 1 . inst3~0_combout $end
+$var wire 1 / inst11|q~q $end
+$var wire 1 0 inst2~0_combout $end
+$var wire 1 1 inst12|q~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+$end
+#10000
+1"
+1+
+1,
+#20000
+0"
+0+
+0,
+#30000
+1"
+1+
+1,
+#40000
+1!
+0"
+1-
+0+
+0,
+10
+#50000
+1"
+1+
+1,
+11
+1*
+1#
+00
+1.
+#60000
+0"
+0+
+0,
+#70000
+1"
+1+
+1,
+1/
+01
+0*
+0#
+#80000
+0!
+0"
+0-
+0+
+0,
+0.
+#90000
+1"
+1+
+1,
+0/
+#100000
+0"
+0+
+0,
+#110000
+1"
+1+
+1,
+#120000

@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/GitHub/descomp/fsm_sequenciador/simulation/qsim
+vfsm_sequenciador
+Z1 !s110 1535897844
+!i10b 1
+!s100 fk5NC7a@ARC[e`=`1zLTL1
+IEDkB<J[PkZ_NPWk_iRRFD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1535897842
+8fsm_sequenciador.vo
+Ffsm_sequenciador.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1535897843.000000
+!s107 fsm_sequenciador.vo|
+!s90 -work|work|fsm_sequenciador.vo|
+!i113 1
+Z4 o-work work
+vfsm_sequenciador_vlg_vec_tst
+R1
+!i10b 1
+!s100 MGQCzDlB8Pm;[OzX;UCfP0
+Ib<dTzBA>?0Fil?GEf2L^l3
+R2
+R0
+w1535897841
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1535897844.000000
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R4
