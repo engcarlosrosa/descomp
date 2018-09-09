@@ -1,0 +1,22 @@
+-- begin_signature
+-- rom_sequenciador(DATA_WIDTH
+-- 10
+-- ADDR_WIDTH
+-- 3)
+-- end_signature
+WIDTH=10;
+DEPTH=8;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	7 :	0000000000;
+	6 :	0000000000;
+	5 :	0100001100;
+	4 :	0100000101;
+	3 :	0101001010;
+	2 :	0100001100;
+	1 :	0100000101;
+	0 :	0101001010;
+END;

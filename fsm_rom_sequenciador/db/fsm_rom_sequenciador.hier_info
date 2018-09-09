@@ -1,0 +1,55 @@
+|fsm_rom_sequenciador
+b0 <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+CLK => rom_sequenciador:inst.clk
+CLK => flipflop:inst4.clk
+CLK => flipflop:inst5.clk
+A => rom_sequenciador:inst.addr[0]
+b1 <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+b2 <= q[4].DB_MAX_OUTPUT_PORT_TYPE
+b7 <= q[9].DB_MAX_OUTPUT_PORT_TYPE
+b6 <= q[8].DB_MAX_OUTPUT_PORT_TYPE
+b5 <= q[7].DB_MAX_OUTPUT_PORT_TYPE
+b4 <= q[6].DB_MAX_OUTPUT_PORT_TYPE
+b3 <= q[5].DB_MAX_OUTPUT_PORT_TYPE
+b1ea <= addr[2].DB_MAX_OUTPUT_PORT_TYPE
+b0ea <= addr[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fsm_rom_sequenciador|rom_sequenciador:inst
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+clk => q[8]~reg0.CLK
+clk => q[9]~reg0.CLK
+addr[0] => rom.RADDR
+addr[1] => rom.RADDR1
+addr[2] => rom.RADDR2
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fsm_rom_sequenciador|flipflop:inst4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fsm_rom_sequenciador|flipflop:inst5
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

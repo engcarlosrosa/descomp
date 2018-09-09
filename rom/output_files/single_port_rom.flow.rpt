@@ -1,5 +1,5 @@
 Flow report for single_port_rom
-Fri Aug 24 07:33:55 2018
+Tue Sep 04 20:32:12 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Aug 24 07:33:55 2018       ;
+; Flow Status                        ; Successful - Tue Sep 04 20:32:12 2018       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; single_port_rom                             ;
 ; Top-level Entity Name              ; single_port_rom                             ;
@@ -99,7 +99,9 @@ agreement for further details.
 ; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4872 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4856 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4865 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:37     ; --                      ; --                  ; 00:01:04                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4856 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4865 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:38     ; --                      ; --                  ; 00:01:06                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ agreement for further details.
 ; Fitter                    ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
 ; Assembler                 ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
@@ -128,6 +132,8 @@ quartus_sta single_port_rom -c single_port_rom
 quartus_eda --read_settings_files=off --write_settings_files=off single_port_rom -c single_port_rom
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off single_port_rom -c single_port_rom --vector_source=C:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana2/aula4a_rom/Waveform3.vwf --testbench_file=C:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana2/aula4a_rom/simulation/qsim/Waveform3.vwf.vt
 quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/user/OneDrive/Documents/educacao/Insper/insper_6_semester_2018/descomp/semana2/aula4a_rom/simulation/qsim/ single_port_rom -c single_port_rom
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off single_port_rom -c single_port_rom --vector_source=C:/Users/user/Documents/GitHub/descomp/rom/Waveform3.vwf --testbench_file=C:/Users/user/Documents/GitHub/descomp/rom/simulation/qsim/Waveform3.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/user/Documents/GitHub/descomp/rom/simulation/qsim/ single_port_rom -c single_port_rom
 
 
 

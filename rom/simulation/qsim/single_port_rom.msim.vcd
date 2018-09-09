@@ -3,7 +3,7 @@ $comment
 		vcd file single_port_rom.msim.vcd -direction
 $end
 $date
-	Fri Aug 24 07:33:57 2018
+	Tue Sep 04 20:32:17 2018
 $end
 $version
 	ModelSim Version 10.4d
