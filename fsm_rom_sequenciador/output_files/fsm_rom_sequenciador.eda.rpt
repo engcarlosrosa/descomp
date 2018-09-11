@@ -1,5 +1,5 @@
 EDA Netlist Writer report for fsm_rom_sequenciador
-Sun Sep 09 12:51:50 2018
+Tue Sep 11 14:21:42 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Sep 09 12:51:50 2018 ;
+; EDA Netlist Writer Status ; Successful - Tue Sep 11 14:21:42 2018 ;
 ; Revision Name             ; fsm_rom_sequenciador                  ;
 ; Top-level Entity Name     ; fsm_rom_sequenciador                  ;
 ; Family                    ; Cyclone IV E                          ;
@@ -95,13 +95,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: devices manufactured by Altera and sold by Altera or its 
     Info: authorized distributors.  Please refer to the applicable 
     Info: agreement for further details.
-    Info: Processing started: Sun Sep 09 12:51:49 2018
+    Info: Processing started: Tue Sep 11 14:21:40 2018
 Info: Command: quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/user/Documents/GitHub/descomp/fsm_rom_sequenciador/simulation/qsim/ fsm_rom_sequenciador -c fsm_rom_sequenciador
+Info (119004): Automatically selected device EP4CE6E22C6 for design fsm_rom_sequenciador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file fsm_rom_sequenciador.vo in folder "C:/Users/user/Documents/GitHub/descomp/fsm_rom_sequenciador/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4865 megabytes
-    Info: Processing ended: Sun Sep 09 12:51:51 2018
+    Info: Peak virtual memory: 4869 megabytes
+    Info: Processing ended: Tue Sep 11 14:21:42 2018
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 

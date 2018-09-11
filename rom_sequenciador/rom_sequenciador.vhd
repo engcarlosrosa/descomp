@@ -15,7 +15,7 @@ entity rom_sequenciador is
 
 	port 
 	(
-		clk		: in std_logic;
+		--clk		: in std_logic;
 		addr	: in natural range 0 to 2**ADDR_WIDTH - 1;
 		q		: out std_logic_vector((DATA_WIDTH -1) downto 0)
 	);
@@ -53,12 +53,12 @@ architecture rtl of rom_sequenciador is
 
 begin
 
-	process(clk)
-	begin
-	if(rising_edge(clk)) then
-		q <= rom(addr);
-	end if;
-	end process;
+	--process(clk)
+	--begin
+	--if(rising_edge(clk)) then
+	q	<= rom(addr);
+	--end if;
+	--end process;
 
 end rtl;
 

@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Sun Sep 09 12:35:57 2018
+Analysis & Synthesis Status : Successful - Tue Sep 11 14:21:04 2018
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 Revision Name : fsm_rom_sequenciador
 Top-level Entity Name : fsm_rom_sequenciador
 Family : Cyclone IV E
-Total logic elements : 8
-    Total combinational functions : 5
-    Dedicated logic registers : 8
-Total registers : 8
+Total logic elements : 6
+    Total combinational functions : 6
+    Dedicated logic registers : 2
+Total registers : 2
 Total pins : 12
 Total virtual pins : 0
 Total memory bits : 0

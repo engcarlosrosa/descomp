@@ -292,7 +292,7 @@ agreement for further details.
 		(pt 256 32)
 		(output)
 		(text "q[data_width-1..0]" (rect 0 0 148 14)(font "Arial" ))
-		(text "q[data_width-1..0]" (rect 110 27 258 41)(font "Arial" ))
+		(text "q[data_width-1..0]" (rect 110 27 235 41)(font "Arial" ))
 		(line (pt 256 32)(pt 240 32)(line_width 3))
 	)
 	(parameter
@@ -471,10 +471,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 328 160)
-	(pt 384 160)
-)
-(connector
 	(text "q[9..0]" (rect 640 144 697 158)(font "Arial" ))
 	(pt 672 160)
 	(pt 640 160)
@@ -490,14 +486,6 @@ agreement for further details.
 	(pt 368 232)
 	(pt 368 176)
 	(bus)
-)
-(connector
-	(pt 328 56)
-	(pt 328 160)
-)
-(connector
-	(pt 328 160)
-	(pt 328 176)
 )
 (connector
 	(pt 672 160)
@@ -551,6 +539,10 @@ agreement for further details.
 	(pt 1040 328)
 	(pt 1040 376)
 )
+(connector
+	(pt 328 56)
+	(pt 328 176)
+)
 (junction (pt 672 208))
 (junction (pt 992 376))
 (junction (pt 672 176))
@@ -563,6 +555,5 @@ agreement for further details.
 (junction (pt 1104 296))
 (junction (pt 1104 320))
 (junction (pt 368 232))
-(junction (pt 328 160))
 (junction (pt 992 360))
 (junction (pt 1040 328))
