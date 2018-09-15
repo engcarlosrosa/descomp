@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity ula is
+port(   clk : in std_logic; 
+        A,B : in signed(7 downto 0); 
+        func : in unsigned(2 downto 0); 
+        Q : out signed(7 downto 0) 
+        );
+end ula;
+
+architecture Behavioral of ula is
+
+signal R1,R2,R3 : signed(7 downto 0) := (others => '0');
+signal flag : boolean;
+
+begin
+
+R1 <= A;
+R2 <= B;
+Q <= R3;
+
+process(clk)
+begin
+
+    if(rising_edge(clk)) then 
+        case func is
+            when "000" => 
+                R3 <= R1 + R2;
+            when "001" => 
+                R3 <= R1 - R2;
+				when "010" => 
+                R3 <= R1 and R2; 
+            when "011" => 
+                R3 <= R1 or R2; 	 
+            when "100" => 
+                R3 <= not R1;
+				if (R3 = "0") then
+					flag <= true;
+				else 
+					flag <= false;
+				end if;
+            when others =>
+                NULL;
+        end case;       
+    end if;
+    
+end process;    
+
+end Behavioral;
