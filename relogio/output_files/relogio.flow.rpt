@@ -1,5 +1,5 @@
 Flow report for relogio
-Sat Sep 15 18:38:30 2018
+Sun Sep 16 12:52:04 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -38,24 +38,29 @@ agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Flow Summary                                                              ;
-+-----------------------------+---------------------------------------------+
-; Flow Status                 ; Flow Failed - Sat Sep 15 18:38:30 2018      ;
-; Quartus Prime Version       ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
-; Revision Name               ; relogio                                     ;
-; Top-level Entity Name       ; Block1                                      ;
-; Family                      ; Cyclone V                                   ;
-; Device                      ; 5CGXFC7C7F23C8                              ;
-; Timing Models               ; Final                                       ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sun Sep 16 12:52:04 2018       ;
+; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                   ; relogio                                     ;
+; Top-level Entity Name           ; diagrama_de_blocos_relogio                  ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CGXFC7C7F23C8                              ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 4 / 56,480 ( < 1 % )                        ;
+; Total registers                 ; 5                                           ;
+; Total pins                      ; 32 / 268 ( 12 % )                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 7,024,640 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 156 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0 / 6 ( 0 % )                               ;
+; Total HSSI PMA RX Deserializers ; 0 / 6 ( 0 % )                               ;
+; Total HSSI TX PCSs              ; 0 / 6 ( 0 % )                               ;
+; Total HSSI PMA TX Serializers   ; 0 / 6 ( 0 % )                               ;
+; Total PLLs                      ; 0 / 13 ( 0 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,49 +68,74 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/15/2018 18:38:15 ;
+; Start date & time ; 09/16/2018 12:47:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; relogio             ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 268891677483430.153704749412156 ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; Block1      ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; Block1      ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; Block1      ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; Block1                          ; relogio       ; --          ; --         ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                      ;
++-------------------------------------+---------------------------------------+---------------+----------------------------+------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name                ; Section Id ;
++-------------------------------------+---------------------------------------+---------------+----------------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 268891677483430.153711285904676       ; --            ; --                         ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --                         ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --                         ; --         ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; diagrama_de_blocos_relogio ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; diagrama_de_blocos_relogio ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; diagrama_de_blocos_relogio ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --                         ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --                         ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --                         ; --         ;
+; TOP_LEVEL_ENTITY                    ; diagrama_de_blocos_relogio            ; relogio       ; --                         ; --         ;
++-------------------------------------+---------------------------------------+---------------+----------------------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 5067 MB             ; 00:00:37                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:37                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 5086 MB             ; 00:00:39                           ;
+; Fitter                    ; 00:00:52     ; 1.0                     ; 6581 MB             ; 00:01:24                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 5047 MB             ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 5365 MB             ; 00:00:07                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4940 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4948 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4941 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4948 MB             ; 00:00:02                           ;
+; Total                     ; 00:01:33     ; --                      ; --                  ; 00:02:27                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-68S0K5F  ; Windows 8 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off relogio -c relogio
+quartus_fit --read_settings_files=off --write_settings_files=off relogio -c relogio
+quartus_asm --read_settings_files=off --write_settings_files=off relogio -c relogio
+quartus_sta relogio -c relogio
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relogio -c relogio --vector_source=C:/Users/user/Documents/GitHub/descomp/relogio/Waveform4.vwf --testbench_file=C:/Users/user/Documents/GitHub/descomp/relogio/simulation/qsim/Waveform4.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/user/Documents/GitHub/descomp/relogio/simulation/qsim/ relogio -c relogio
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relogio -c relogio --vector_source=C:/Users/user/Documents/GitHub/descomp/relogio/Waveform4.vwf --testbench_file=C:/Users/user/Documents/GitHub/descomp/relogio/simulation/qsim/Waveform4.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/user/Documents/GitHub/descomp/relogio/simulation/qsim/ relogio -c relogio
 
 
 
