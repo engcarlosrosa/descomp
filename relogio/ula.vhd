@@ -21,10 +21,8 @@ R1 <= A;
 R2 <= B;
 Q <= R3;
 
-process(clk)
+process(all)
 begin
-
-    if(rising_edge(clk)) then 
         case func is
             when '0' => 
                 R3 <= R1 + R2;
@@ -35,9 +33,7 @@ begin
 				else 
 					flag <= false;
 				end if;
-        end case;       
-    end if;
-    
+        end case;           
 end process;    
 
 end Behavioral;
