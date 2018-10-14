@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/GitHub/descomp/relogio/simulation/qsim
+vdiagrama_de_blocos_relogio
+Z1 !s110 1537113125
+!i10b 1
+!s100 _OVWVglDPPgE254e`z0bB3
+Iei>>Nc92?XnB>ZgV;95FK2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1537113124
+8relogio.vo
+Frelogio.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1537113125.000000
+!s107 relogio.vo|
+!s90 -work|work|relogio.vo|
+!i113 1
+Z5 o-work work
+vdiagrama_de_blocos_relogio_vlg_vec_tst
+R1
+!i10b 1
+!s100 G;IhBokCcSSYBQUY<2LY71
+I>[H5lk@GjAZnHV6XUDz8z0
+R2
+R0
+w1537113122
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R5

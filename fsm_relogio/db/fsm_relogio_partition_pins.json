@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "palavra[0]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[1]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[2]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[3]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[4]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[5]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[6]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[7]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[8]",
+					"strict" : false
+				},
+				{
+					"name" : "palavra[10]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "DH_MAX",
+					"strict" : false
+				},
+				{
+					"name" : "Clock_Restart",
+					"strict" : false
+				},
+				{
+					"name" : "DS_MAX",
+					"strict" : false
+				},
+				{
+					"name" : "DM_MAX",
+					"strict" : false
+				},
+				{
+					"name" : "UM_MAX",
+					"strict" : false
+				},
+				{
+					"name" : "UH_MAX",
+					"strict" : false
+				},
+				{
+					"name" : "US_MAX",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Sep 27 16:26:32 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : fsm_relogio
+Top-level Entity Name : fsm_relogio
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 29 / 6,272 ( < 1 % )
+    Total combinational functions : 29 / 6,272 ( < 1 % )
+    Dedicated logic registers : 12 / 6,272 ( < 1 % )
+Total registers : 12
+Total pins : 27 / 92 ( 29 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

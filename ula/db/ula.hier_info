@@ -1,0 +1,135 @@
+|circuito_combinacional
+SAIDA[0] <= <GND>
+SAIDA[1] <= <GND>
+SAIDA[2] <= <GND>
+SAIDA[3] <= <GND>
+SAIDA[4] <= <GND>
+CLK => ula:inst.clk
+CLK => registrador:REG_SAIDA.clk
+CLK => registrador:REG_ENTRADA.clk
+HABILITA_REG_SAIDA => registrador:REG_SAIDA.enable
+RST_REG_SAIDA => registrador:REG_SAIDA.reset
+HABILITA_REG_ENTRADA => registrador:REG_ENTRADA.enable
+RST_REG_ENTRADA => registrador:REG_ENTRADA.reset
+ENTRADA[0] => registrador:REG_ENTRADA.d[0]
+ENTRADA[1] => registrador:REG_ENTRADA.d[1]
+ENTRADA[2] => registrador:REG_ENTRADA.d[2]
+ENTRADA[3] => registrador:REG_ENTRADA.d[3]
+ENTRADA[4] => registrador:REG_ENTRADA.d[4]
+OPERACAO[0] => ula:inst.func[0]
+OPERACAO[1] => ula:inst.func[1]
+
+
+|circuito_combinacional|ula:inst
+clk => flag~reg0.CLK
+clk => R3[0].CLK
+clk => R3[1].CLK
+clk => R3[2].CLK
+clk => R3[3].CLK
+clk => R3[4].CLK
+A[0] => Add0.IN5
+A[0] => Add1.IN10
+A[0] => RESULT.IN0
+A[1] => Add0.IN4
+A[1] => Add1.IN9
+A[1] => RESULT.IN0
+A[2] => Add0.IN3
+A[2] => Add1.IN8
+A[2] => RESULT.IN0
+A[3] => Add0.IN2
+A[3] => Add1.IN7
+A[3] => RESULT.IN0
+A[4] => Add0.IN1
+A[4] => Add1.IN6
+A[4] => RESULT.IN0
+B[0] => Add0.IN10
+B[0] => RESULT.IN1
+B[0] => Add1.IN5
+B[1] => Add0.IN9
+B[1] => RESULT.IN1
+B[1] => Add1.IN4
+B[2] => Add0.IN8
+B[2] => RESULT.IN1
+B[2] => Add1.IN3
+B[3] => Add0.IN7
+B[3] => RESULT.IN1
+B[3] => Add1.IN2
+B[4] => Add0.IN6
+B[4] => RESULT.IN1
+B[4] => Add1.IN1
+func[0] => Mux0.IN5
+func[0] => Mux1.IN5
+func[0] => Mux2.IN5
+func[0] => Mux3.IN5
+func[0] => Mux4.IN5
+func[0] => Mux5.IN2
+func[1] => Mux0.IN4
+func[1] => Mux1.IN4
+func[1] => Mux2.IN4
+func[1] => Mux3.IN4
+func[1] => Mux4.IN4
+func[1] => Mux5.IN1
+flag <= flag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= R3[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= R3[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= R3[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= R3[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= R3[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_combinacional|registrador:REG_SAIDA
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+enable => q[4]~reg0.ENA
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+reset => q[4]~reg0.ACLR
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_combinacional|registrador:REG_ENTRADA
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+enable => q[4]~reg0.ENA
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+reset => q[4]~reg0.ACLR
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

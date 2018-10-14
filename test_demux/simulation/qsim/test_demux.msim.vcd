@@ -1,0 +1,80 @@
+$comment
+	File created using the following command:
+		vcd file test_demux.msim.vcd -direction
+$end
+$date
+	Tue Oct 02 08:37:42 2018
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module test_demux_vlg_vec_tst $end
+$var reg 3 ! sel [2:0] $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 & E $end
+$var wire 1 ' F $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . A~output_o $end
+$var wire 1 / B~output_o $end
+$var wire 1 0 C~output_o $end
+$var wire 1 1 D~output_o $end
+$var wire 1 2 E~output_o $end
+$var wire 1 3 F~output_o $end
+$var wire 1 4 sel[2]~input_o $end
+$var wire 1 5 sel[0]~input_o $end
+$var wire 1 6 sel[1]~input_o $end
+$var wire 1 7 inst|Equal0~0_combout $end
+$var wire 1 8 inst|Equal0~1_combout $end
+$var wire 1 9 inst|Equal0~2_combout $end
+$var wire 1 : inst|Equal0~3_combout $end
+$var wire 1 ; inst|Equal0~4_combout $end
+$var wire 1 < inst|Equal0~5_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+04
+05
+06
+17
+08
+09
+0:
+0;
+0<
+$end
+#1000000

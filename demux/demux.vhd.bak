@@ -1,0 +1,32 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+ 
+entity demux_1to6 is
+ port(
+ 
+ Q : in STD_LOGIC;
+ SEL: in STD_LOGIC_VECTOR(3 downto 0);
+ A,B,C,D,E,F: out STD_LOGIC
+ );
+end demux_1to6;
+ 
+architecture demux_arch of demux_1to6 is
+begin
+process (Q,SEL) is
+begin
+ if (SEL ='000') then
+ A <= Q;
+ elsif (SEL ='001') then
+ B <= Q;
+ elsif (SEL ='010') then
+ C <= Q;
+ elsif (SEL ='011') then
+ D <= Q;
+ elsif (SEL ='100') then
+ E <= Q;
+ else
+ F <= Q;
+ end if;
+ 
+end process;
+end demux_arch;

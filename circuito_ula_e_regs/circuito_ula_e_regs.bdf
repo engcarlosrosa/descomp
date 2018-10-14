@@ -1,0 +1,275 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 40 184 208 200)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 5 0 30 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 56 200 272 216)
+	(text "INPUT" (rect 173 0 214 11)(font "Arial" (font_size 6)))
+	(text "value_um[7..0]" (rect 5 0 121 14)(font "Arial" ))
+	(pt 216 8)
+	(drawing
+		(line (pt 132 12)(pt 157 12))
+		(line (pt 132 4)(pt 157 4))
+		(line (pt 161 8)(pt 216 8))
+		(line (pt 132 12)(pt 132 4))
+		(line (pt 157 4)(pt 161 8))
+		(line (pt 157 12)(pt 161 8))
+	)
+	(text "VCC" (rect 176 7 200 18)(font "Arial" (font_size 6)))
+)
+(symbol
+	(rect 280 160 440 240)
+	(text "registrador" (rect 5 0 95 14)(font "Arial" ))
+	(text "inst2" (rect 8 64 49 78)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 24 14)(font "Arial" ))
+		(text "CLK" (rect 21 27 45 41)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "D[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "D[7..0]" (rect 21 43 78 57)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Q[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "Q[7..0]" (rect 91 27 148 41)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+)
+(symbol
+	(rect 280 264 440 344)
+	(text "registrador" (rect 5 0 95 14)(font "Arial" ))
+	(text "inst3" (rect 8 64 49 78)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 24 14)(font "Arial" ))
+		(text "CLK" (rect 21 27 45 41)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "D[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "D[7..0]" (rect 21 43 78 57)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Q[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "Q[7..0]" (rect 91 27 148 41)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+)
+(symbol
+	(rect 616 208 784 320)
+	(text "ULA" (rect 5 0 29 14)(font "Arial" ))
+	(text "inst" (rect 8 96 41 110)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "A[7..0]" (rect 21 27 78 41)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "B[7..0]" (rect 21 43 78 57)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Sel[1..0]" (rect 0 0 74 14)(font "Arial" ))
+		(text "Sel[1..0]" (rect 21 59 95 73)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "C[7..0]" (rect 99 27 156 41)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "overflow" (rect 0 0 66 14)(font "Arial" ))
+		(text "overflow" (rect 92 43 158 57)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 96))
+	)
+)
+(symbol
+	(rect 616 208 784 320)
+	(text "ULA" (rect 5 0 29 14)(font "Arial" ))
+	(text "inst4" (rect 8 96 49 110)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "A[7..0]" (rect 21 27 78 41)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "B[7..0]" (rect 21 43 78 57)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Sel[1..0]" (rect 0 0 74 14)(font "Arial" ))
+		(text "Sel[1..0]" (rect 21 59 95 73)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C[7..0]" (rect 0 0 57 14)(font "Arial" ))
+		(text "C[7..0]" (rect 99 27 156 41)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "overflow" (rect 0 0 66 14)(font "Arial" ))
+		(text "overflow" (rect 92 43 158 57)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 96))
+	)
+)
+(connector
+	(pt 440 296)
+	(pt 456 296)
+	(bus)
+)
+(connector
+	(pt 616 256)
+	(pt 456 256)
+	(bus)
+)
+(connector
+	(pt 456 256)
+	(pt 456 296)
+	(bus)
+)
+(connector
+	(pt 280 312)
+	(pt 248 312)
+	(bus)
+)
+(connector
+	(pt 248 312)
+	(pt 248 368)
+	(bus)
+)
+(connector
+	(pt 280 296)
+	(pt 216 296)
+)
+(connector
+	(pt 216 296)
+	(pt 216 192)
+)
+(connector
+	(pt 280 192)
+	(pt 216 192)
+)
+(connector
+	(pt 216 192)
+	(pt 208 192)
+)
+(connector
+	(pt 280 208)
+	(pt 272 208)
+	(bus)
+)
+(connector
+	(pt 440 192)
+	(pt 456 192)
+	(bus)
+)
+(connector
+	(pt 616 240)
+	(pt 456 240)
+	(bus)
+)
+(connector
+	(pt 456 240)
+	(pt 456 192)
+	(bus)
+)
+(connector
+	(pt 248 368)
+	(pt 832 368)
+	(bus)
+)
+(connector
+	(pt 832 368)
+	(pt 832 240)
+	(bus)
+)
+(connector
+	(pt 784 240)
+	(pt 832 240)
+	(bus)
+)
+(junction (pt 216 192))

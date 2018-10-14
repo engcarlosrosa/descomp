@@ -1,0 +1,15 @@
+
+State Machine - |fsm_relogio|fstate
+Name fstate.zera_DH fstate.incrementa_DH_parte_II fstate.incrementa_DH_parte_I fstate.conta_hora fstate.zera_DM fstate.incrementa_DM_parte_II fstate.incrementa_DM_parte_I fstate.conta_minuto fstate.zera_DS fstate.incrementa_DS_parteII fstate.Incrementa_DS_parte_I fstate.conta_segundo 
+fstate.conta_segundo 0 0 0 0 0 0 0 0 0 0 0 0 
+fstate.Incrementa_DS_parte_I 0 0 0 0 0 0 0 0 0 0 1 1 
+fstate.incrementa_DS_parteII 0 0 0 0 0 0 0 0 0 1 0 1 
+fstate.zera_DS 0 0 0 0 0 0 0 0 1 0 0 1 
+fstate.conta_minuto 0 0 0 0 0 0 0 1 0 0 0 1 
+fstate.incrementa_DM_parte_I 0 0 0 0 0 0 1 0 0 0 0 1 
+fstate.incrementa_DM_parte_II 0 0 0 0 0 1 0 0 0 0 0 1 
+fstate.zera_DM 0 0 0 0 1 0 0 0 0 0 0 1 
+fstate.conta_hora 0 0 0 1 0 0 0 0 0 0 0 1 
+fstate.incrementa_DH_parte_I 0 0 1 0 0 0 0 0 0 0 0 1 
+fstate.incrementa_DH_parte_II 0 1 0 0 0 0 0 0 0 0 0 1 
+fstate.zera_DH 1 0 0 0 0 0 0 0 0 0 0 1 

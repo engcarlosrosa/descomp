@@ -1,0 +1,45 @@
+|test_demux
+A <= demux:inst.A
+sel[0] => demux:inst.SEL[0]
+sel[1] => demux:inst.SEL[1]
+sel[2] => demux:inst.SEL[2]
+B <= demux:inst.B
+C <= demux:inst.C
+D <= demux:inst.D
+E <= demux:inst.E
+F <= demux:inst.F
+
+
+|test_demux|demux:inst
+Q => A.DATAB
+Q => B.DATAB
+Q => C.DATAB
+Q => D.DATAB
+Q => E.DATAB
+Q => F.DATAB
+SEL[0] => Equal0.IN2
+SEL[0] => Equal1.IN2
+SEL[0] => Equal2.IN1
+SEL[0] => Equal3.IN2
+SEL[0] => Equal4.IN1
+SEL[0] => Equal5.IN2
+SEL[1] => Equal0.IN1
+SEL[1] => Equal1.IN1
+SEL[1] => Equal2.IN2
+SEL[1] => Equal3.IN1
+SEL[1] => Equal4.IN0
+SEL[1] => Equal5.IN0
+SEL[2] => Equal0.IN0
+SEL[2] => Equal1.IN0
+SEL[2] => Equal2.IN0
+SEL[2] => Equal3.IN0
+SEL[2] => Equal4.IN2
+SEL[2] => Equal5.IN1
+A <= A.DB_MAX_OUTPUT_PORT_TYPE
+B <= B.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+E <= E.DB_MAX_OUTPUT_PORT_TYPE
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
